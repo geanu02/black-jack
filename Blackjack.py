@@ -11,6 +11,8 @@ class Blackjack:
         self.game_play()
 
     def if_blackjack(self, e, p, d):
+        # e is a string, if the method is called to check if it's for the player or dealer
+        # p(layer) & d(ealer) are bool, True if blackjack
         # If the first turn the player gets Blackjack,
         # then the player wins and the game ends
         if e == "player":
