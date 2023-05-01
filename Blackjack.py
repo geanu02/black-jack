@@ -50,7 +50,8 @@ class Blackjack:
         # ========== PLAYER'S TURN ===========
 
         _input = None
-        # Looping while 
+        # Looping while player does not stand
+        # Allows the player to hit 
         while not _input == "stand":
             _bust = False
             _input = input("Hit or Stand? ").lower()
