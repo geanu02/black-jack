@@ -14,7 +14,7 @@ class Card:
         self.card_suit = self.suit_type[suit]
 
     def card_show(self):
-        print(f"{self.card_face} of {self.card_suit}s")
+        print(f"> {self.card_face} of {self.card_suit}s")
 
     def card_points(self):
         _pts = 0
