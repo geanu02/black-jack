@@ -19,3 +19,5 @@ Note: No wildcards will be used in the program
 5. The Player will never see the Dealer's hand until the Player chooses to 'stand'. A Stand is when the player tells the dealer to not deal it anymore cards. Once the player chooses to Stand, the Player and the Dealer will compare their hands. Whoever has the higher number wins. Keep in mind that the Dealer can also bust.
 
 This will be an exercise of how well you understand OOP(Object Oriented Programming). In this project, you may use "Pair-Programming" to complete the assignment.
+
+The Blackjack gameplay can be executed on the [Blackjack.py](https://github.com/geanu02/black-jack/blob/main/Blackjack.py) file.
